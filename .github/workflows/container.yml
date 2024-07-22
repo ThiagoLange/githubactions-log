@@ -20,5 +20,5 @@ jobs:
             -   name: Execução do container
                 uses: docker://alpine:latest
                 with:
-                    entryppint: cat
+                    entrypoint: cat
                     args: /etc/os-realese
