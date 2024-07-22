@@ -21,4 +21,4 @@ jobs:
                 uses: docker://alpine:latest
                 with:
                     entrypoint: cat
-                    args: /etc/os-realese
+                    args: /etc/os-release
