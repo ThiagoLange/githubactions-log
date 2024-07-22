@@ -15,3 +15,10 @@ jobs:
                 run: apk add curl
             -   name: Executando o curl
                 run: curl https://www.google.com
+            -   name: Execução do runner
+                run: cat /etc/os-release
+            -   name: Execução do container
+                uses: docker://alpine:latest
+                with:
+                    entryppint: cat
+                    args: /etc/os-realese
